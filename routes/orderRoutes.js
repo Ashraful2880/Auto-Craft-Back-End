@@ -4,13 +4,18 @@ const {
     getAllOrders,
     getUserOrders,
     deleteOrder,
+    findOrderProducts,
+    updateOrderStatus,
 } = require("../controllers/orderController");
 
 const router = express.Router();
 
-router.post("/", makeOrder); // Make an Order
-router.get("/", getAllOrders); // Get All Orders
-router.get("/myOrders/:email", getUserOrders); // Get Specific User Orders By Email
-router.delete("/:id", deleteOrder); // Delete an Order
+// Match old project endpoints exactly
+router.post("/makeOrder", makeOrder);
+router.get("/orders", getAllOrders);
+router.get("/myOrders/:email", getUserOrders);
+router.post("/findOrder", findOrderProducts);
+router.delete("/deleteOrder/:id", deleteOrder);
+router.put("/status/:id", updateOrderStatus);
 
 module.exports = router;
