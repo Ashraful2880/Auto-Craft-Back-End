@@ -1,3 +1,8 @@
+## 🕰️ Project History
+
+- 🔹 Originally developed in: **2022**
+- 🔹 Last updated/refactored in: **2025** (backend improvements and minor changes)
+
 # Auto-Craft Server
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue)](https://auto-craft.netlify.app/)
