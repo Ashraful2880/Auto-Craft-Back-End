@@ -132,8 +132,9 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 **Ashraful Islam**
 - GitHub: [@Ashraful2880](https://github.com/Ashraful2880)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: your.email@example.com
+- LinkedIn: [(https://www.linkedin.com/in/islam-ashraful1/)]
+- Email: contact.ashraful1@gmail.com
+
 
 ## 🙏 Acknowledgments
 
