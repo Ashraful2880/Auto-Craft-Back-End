@@ -10,11 +10,12 @@ const {
 
 const router = express.Router();
 
-router.get("/", getAllCars);
-router.get("/pagination", getCarsWithPagination);
-router.get("/:id", getCarById);
-router.post("/", addProduct);
-router.put("/:id", updateProduct);
-router.delete("/:id", deleteProduct);
+// Match old project endpoints exactly
+router.get("/allCars", getAllCars);
+router.get("/cars", getCarsWithPagination);
+router.get("/car/:id", getCarById);
+router.post("/addProduct", addProduct);
+router.put("/updateProduct/:id", updateProduct);
+router.delete("/deleteProduct/:id", deleteProduct);
 
 module.exports = router;
